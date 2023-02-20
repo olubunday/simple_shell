@@ -141,3 +141,7 @@ int renumber_history(info_t *info)
 	}
 	return (info->histcount = i);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f7113b4186be1e40d6aecc294ed816b125a521ec
