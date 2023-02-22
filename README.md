@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0x16. C - Simple Shell
 By Spencer Cheng, featuring Julien Barbier Project to be done in teams of 2 people (your team: Godswill Kalu, Vatalis Ibeh)
 
@@ -28,6 +29,8 @@ Your shell will be compiled this way:
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 files
+=======
+>>>>>>> 2bd50352b0483bbe3be0024cf4c2320546d95b15
 README.md - description about the project repo
 man_1_simple_shell - is the man page for the shell we are going to write.
 AUTHORS - file at the root of your repository, listing all individuals having contributed content to the repository.
@@ -38,6 +41,7 @@ special_character - It identiies if the special inputs such as if the frist inpu
 string.c -it handles the strings(string length, write string,find string in directory,concatane strings....)
 cmd.c - it finds the command the user entered.
 execute.c - execute the command.
+<<<<<<< HEAD
 How to add Author file
 Bash script for generating the list of authors in git repo
 
@@ -47,3 +51,5 @@ git shortlog -se \
   | perl -spe 's/^\s+\d+\s+//' \
   | sed -e '/^CommitSyncScript.*$/d' \
   > AUTHORS
+=======
+>>>>>>> 2bd50352b0483bbe3be0024cf4c2320546d95b15
